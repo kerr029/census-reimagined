@@ -38,7 +38,7 @@
         </a>
       </li>
       <li class="main-nav__list-item">
-        <a href="#privatSec" class="main-nav__link">
+        <a href="#privateSec" class="main-nav__link">
           <span class="main-nav-menu-dot"></span><span> Private Spaces</span>
         </a>
       </li>
@@ -59,20 +59,23 @@
     <!--1-->
     <div id="reimaginedSec" class="anchor-block reimagined-holder">
       <section class="reimagined-sec-1 section-item full-height-section">
-        <div class="column text-column">
-          <div class="column-content__wrap">
-            <div class="pre-heading">Workspace Furniture Feedback</div>
-            <h2 class="section-title">CENSUS REIMAGINED</h2>
-            <p class="desc">The purpose for asking your feedback is to ensure we hear you and provide this opportunity
-              to weigh in on possible workspace and furniture options for our future work environment. We'll explain
-              the
-              space and furniture, including the function, and ask direct questions for your feedback. Together, we'll
-              create a better work environment for everyone.</p>
-            <div class="w-select custom-select">
-              <select name="" id="select-1" class=" js-custom-select" data-placeholder="What Directorate Are You With?">
-                <option value="1">2</option>
-                <option value="1">3</option>
-              </select>
+        <div class="grid">
+          <div class="column text-column">
+            <div class="column-content__wrap">
+              <div class="pre-heading">Workspace Furniture Feedback</div>
+              <h2 class="section-title">CENSUS REIMAGINED</h2>
+              <p class="desc">The purpose for asking your feedback is to ensure we hear you and provide this opportunity
+                to weigh in on possible workspace and furniture options for our future work environment. We'll explain
+                the
+                space and furniture, including the function, and ask direct questions for your feedback. Together, we'll
+                create a better work environment for everyone.</p>
+              <div class="w-select custom-select">
+                <select name="" id="select-1" class=" js-custom-select"
+                        data-placeholder="What Directorate Are You With?">
+                  <option value="1">2</option>
+                  <option value="1">3</option>
+                </select>
+              </div>
             </div>
           </div>
         </div>
@@ -116,6 +119,17 @@
           </div>
         </div>
       </section>
+
+      <div class="next-step__btn-row">
+        <button class="next-step__btn btn btn-success">
+          <span>Work Stations</span>
+          <span class="icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.9393 24.0607C11.5251 24.6464 12.4749 24.6464 13.0607 24.0607L22.6066 14.5147C23.1924 13.9289 23.1924 12.9792 22.6066 12.3934C22.0208 11.8076 21.0711 11.8076 20.4853 12.3934L12 20.8787L3.51472 12.3934C2.92893 11.8076 1.97919 11.8076 1.3934 12.3934C0.807611 12.9792 0.807611 13.9289 1.3934 14.5147L10.9393 24.0607ZM10.5 0L10.5 23H13.5L13.5 0L10.5 0Z" fill="white"/>
+              </svg>
+            </span>
+        </button>
+      </div>
     </div>
 
     <!--2-->
@@ -166,7 +180,7 @@
             <h3>Workspaces Feedback</h3>
           </div>
 
-          <div class="workspaces-feedback__step step-1">
+          <div class="workspaces-feedback__step">
             <div class="row grid">
               <div class="column preview-column">
                 <div class="carousel-preview__holder">
@@ -176,7 +190,7 @@
                     </div>
 
                     <div class="card-body w-img">
-                      <img src="img/png/card-img-1.png" alt="Image" class="cover-img" width="" height="">
+                      <img src="img/png/card-img-1.png" alt="Image" class="img-cover" width="" height="">
                     </div>
 
                     <div class="card-footer">
@@ -241,16 +255,19 @@
               </div>
 
               <div class="column fb-options">
-                <div class="column-inner text-center">
-                  <div class="title">
-                    1. Which work station setup will allow for the most productivity?
+                <div class="column-inner">
+                  <div class="fb-options__title">
+                    <div class="d-flex">
+                      <span class="count">1.</span> Which work station setup will allow for the most productivity?
+                    </div>
                   </div>
 
                   <div class="options-holder">
                     <div class="option-item  column-33 active">
                       <div class="form-check form-check-radio flex-y-center">
                         <div class="checkbox-group d-inline-flex">
-                          <input id="radio-5" class="form-check-input" type="radio" checked="" name="workStationOptionGroup">
+                          <input id="radio-5" class="form-check-input" type="radio" checked=""
+                                 name="workStationOptionGroup">
                           <label class="form-check-label" for="radio-5"></label>
                         </div>
                       </div>
@@ -303,7 +320,7 @@
                     </div>
                   </div>
 
-                  <div class="btn-row">
+                  <div class="btn-row text-center">
                     <button class="btn btn-success">Next</button>
                   </div>
 
@@ -324,42 +341,45 @@
             <div class="row grid">
               <div class="column preview-column">
                 <div class="preview-column__option-holder d-flex">
-                  <div class="color-box column">
-                    <img src="img/jpg/color-1.jpg" alt="Color Image">
+                  <div class="color-box column w-img">
+                    <img src="img/jpg/color-1.jpg" class="img-cover" alt="Color Image">
                   </div>
                   <div class="text-box column">White Laminate</div>
                 </div>
                 <div class="preview-column__option-holder d-flex">
-                  <div class="color-box column">
-                    <img src="img/jpg/color-2.jpg" alt="Color Image">
+                  <div class="color-box column w-img">
+                    <img src="img/jpg/color-2.jpg" class="img-cover" alt="Color Image">
                   </div>
                   <div class="text-box column">White Oak Wood Grain Laminate (Light)</div>
                 </div>
                 <div class="preview-column__option-holder d-flex">
-                  <div class="color-box column">
-                    <img src="img/jpg/color-3.jpg" alt="Color Image">
+                  <div class="color-box column w-img">
+                    <img src="img/jpg/color-3.jpg" class="img-cover" alt="Color Image">
                   </div>
                   <div class="text-box column">Flint Laminate</div>
                 </div>
                 <div class="preview-column__option-holder d-flex">
-                  <div class="color-box column">
-                    <img src="img/jpg/color-4.jpg" alt="Color Image">
+                  <div class="color-box column w-img">
+                    <img src="img/jpg/color-4.jpg" class="img-cover" alt="Color Image">
                   </div>
                   <div class="text-box column">King’s Walnut Wood Grain (Ash tone)</div>
                 </div>
               </div>
 
               <div class="column fb-options">
-                <div class="column-inner text-center">
-                  <div class="title">
-                    1. Which workspace surface finish and color do you prefer?
+                <div class="column-inner">
+                  <div class="fb-options__title">
+                    <div class="d-flex">
+                      <span class="count">1.</span> Which workspace surface finish and color do you prefer?
+                    </div>
                   </div>
 
                   <div class="options-holder">
                     <div class="option-item column-50 active">
                       <div class="form-check form-check-radio flex-y-center">
                         <div class="checkbox-group d-inline-flex">
-                          <input id="radio-1" class="form-check-input" type="radio" checked="" name="surfaceColorOptionGroup">
+                          <input id="radio-1" class="form-check-input" type="radio" checked=""
+                                 name="surfaceColorOptionGroup">
                           <label class="form-check-label" for="radio-1"></label>
                         </div>
                       </div>
@@ -402,36 +422,39 @@
             <div class="row grid">
               <div class="column preview-column">
                 <div class="preview-column__option-holder d-flex">
-                  <div class="color-box column">
-                    <img src="img/jpg/color-5.jpg" alt="Color Image">
+                  <div class="color-box column w-img">
+                    <img src="img/jpg/color-5.jpg" class="img-cover" alt="Color Image">
                   </div>
                   <div class="text-box column">Framed Clear Glass</div>
                 </div>
                 <div class="preview-column__option-holder d-flex">
-                  <div class="color-box column">
-                    <img src="img/jpg/color-6.jpg" alt="Color Image">
+                  <div class="color-box column w-img">
+                    <img src="img/jpg/color-6.jpg" class="img-cover" alt="Color Image">
                   </div>
                   <div class="text-box column">Fabric</div>
                 </div>
                 <div class="preview-column__option-holder d-flex">
-                  <div class="color-box column">
-                    <img src="img/jpg/color-7.jpg" alt="Color Image">
+                  <div class="color-box column w-img">
+                    <img src="img/jpg/color-7.jpg" class="img-cover" alt="Color Image">
                   </div>
                   <div class="text-box column">Framed Frosted Glass</div>
                 </div>
               </div>
 
               <div class="column fb-options">
-                <div class="column-inner text-center">
-                  <div class="title">
-                    1. Which separator do you prefer?
+                <div class="column-inner">
+                  <div class="fb-options__title">
+                    <div class="d-flex">
+                      <span class="count">1.</span>Which separator do you prefer?
+                    </div>
                   </div>
 
                   <div class="options-holder">
                     <div class="option-item column-33 active">
                       <div class="form-check form-check-radio flex-y-center">
                         <div class="checkbox-group d-inline-flex">
-                          <input id="radio-11" class="form-check-input" type="radio" checked="" name="separatorColorOptionGroup">
+                          <input id="radio-11" class="form-check-input" type="radio" checked=""
+                                 name="separatorColorOptionGroup">
                           <label class="form-check-label" for="radio-11"></label>
                         </div>
                       </div>
@@ -466,22 +489,25 @@
               <div class="column preview-column">
                 <div class=" preview-column__image-group">
                   <div class="w-img">
-                    <img src="img/jpg/DSC07449_1.jpg" class="cover-img" alt="Image" width="" height="">
+                    <img src="img/jpg/DSC07449_1.jpg" class="img-cover" alt="Image" width="" height="">
                   </div>
                 </div>
               </div>
 
               <div class="column fb-options">
-                <div class="column-inner text-center">
-                  <div class="title">
-                    1. Which workstation height do you prefer?
+                <div class="column-inner">
+                  <div class="fb-options__title">
+                    <div class="d-flex">
+                      <span class="count">1.</span>Which workstation height do you prefer?
+                    </div>
                   </div>
 
                   <div class="options-holder">
                     <div class="option-item  column-50 active">
                       <div class="form-check form-check-radio flex-y-center">
                         <div class="checkbox-group d-inline-flex">
-                          <input id="radio-14" class="form-check-input" type="radio" checked="" name="workstationHeightOptionGroup">
+                          <input id="radio-14" class="form-check-input" type="radio" checked=""
+                                 name="workstationHeightOptionGroup">
                           <label class="form-check-label" for="radio-14"></label>
                         </div>
                       </div>
@@ -490,7 +516,8 @@
                     <div class="option-item column-50">
                       <div class="form-check form-check-radio flex-y-center">
                         <div class="checkbox-group d-inline-flex">
-                          <input id="radio-15" class="form-check-input" type="radio" name="workstationHeightOptionGroup">
+                          <input id="radio-15" class="form-check-input" type="radio"
+                                 name="workstationHeightOptionGroup">
                           <label class="form-check-label" for="radio-15"></label>
                         </div>
                       </div>
@@ -504,48 +531,869 @@
         </div>
 
       </section>
+
+      <div class="next-step__btn-row flex-x-center">
+        <button class="next-step__btn btn btn-success">
+          <span>Collaboration Areas</span>
+          <span class="icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.9393 24.0607C11.5251 24.6464 12.4749 24.6464 13.0607 24.0607L22.6066 14.5147C23.1924 13.9289 23.1924 12.9792 22.6066 12.3934C22.0208 11.8076 21.0711 11.8076 20.4853 12.3934L12 20.8787L3.51472 12.3934C2.92893 11.8076 1.97919 11.8076 1.3934 12.3934C0.807611 12.9792 0.807611 13.9289 1.3934 14.5147L10.9393 24.0607ZM10.5 0L10.5 23H13.5L13.5 0L10.5 0Z" fill="white"/>
+              </svg>
+            </span>
+        </button>
+      </div>
     </div>
 
     <!--3-->
-    <div id="collaborationSec" class="collaboration-holder anchor-block section-item full-height-section">
-      <div class="container">
-        <div class="row nowrap">
-          <div class="column text-column flex-y-center">
-            <div class="column-content__wrap">
-              <div class="pre-heading">Improving productivity opportunities</div>
-              <h2 class="section-title">COLLABORATION AREAS</h2>
-              <div class="desc">
-                <p>Innovative thinking, creativity, and effectiveness are achieved in stimulating spaces designed to promote interaction, comradery, and a sense of belonging.</p>
-                <p>Census Reimagined offers several options for collaboration and connection because for our mission-critical work there is no 'one-size fits all.'</p>
-                <p>Let us know what collaborative spaces best suit your needs and why.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="column image-column">
-            <div class="img-circle-txt__group">
-              <div class="circle-text _white">
-                <div class="circle-text__content-wrap">
-                  <h3 class="title">Did you know?</h3>
-                  <p class="desc">
-                    Designing work environments to support the holistic wellbeing of people can amplify employee engagement and satisfaction and nurture a sense of belonging, fostering connections between an organization and it's people. (Steelcase 360 Report, (2018) Engagement and the Global Workplace)
-                  </p>
+    <div id="collaborationSec" class="collaboration-holder">
+      <section class="heading-section section-item full-height-section anchor-block has-next-step-btn">
+        <div class="container">
+          <div class="row nowrap text-left-grid">
+            <div class="column text-column flex-y-center">
+              <div class="column-content__wrap">
+                <div class="pre-heading">Improving productivity opportunities</div>
+                <h2 class="section-title">COLLABORATION AREAS</h2>
+                <div class="desc">
+                  <p>Innovative thinking, creativity, and effectiveness are achieved in stimulating spaces designed to
+                    promote interaction, comradery, and a sense of belonging.</p>
+                  <p>Census Reimagined offers several options for collaboration and connection because for our
+                    mission-critical work there is no 'one-size fits all.'</p>
+                  <p>Let us know what collaborative spaces best suit your needs and why.</p>
                 </div>
               </div>
+            </div>
 
-              <div class="section-img">
-                <div class="w-img">
-                  <img src="img/jpg/sec4-img.jpg" alt="Image" width="455" height="354">
+            <div class="column-auto image-column">
+              <div class="img-circle-txt__group">
+                <div class="circle-text _white">
+                  <div class="circle-text__content-wrap">
+                    <h3 class="title">Did you know?</h3>
+                    <p class="desc">
+                      Designing work environments to support the holistic wellbeing of people can amplify employee
+                      engagement and satisfaction and nurture a sense of belonging, fostering connections between an
+                      organization and it's people. (Steelcase 360 Report, (2018) Engagement and the Global Workplace)
+                    </p>
+                  </div>
+                </div>
+
+                <div class="section-img">
+                  <div class="w-img">
+                    <img src="img/jpg/sec4-img.jpg" alt="Image" width="455" height="354">
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <div class="next-step__btn-row flex-x-center">
+          <button class="next-step__btn btn btn-success">
+            <span>Let’s hear from you!</span>
+            <span class="icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.9393 24.0607C11.5251 24.6464 12.4749 24.6464 13.0607 24.0607L22.6066 14.5147C23.1924 13.9289 23.1924 12.9792 22.6066 12.3934C22.0208 11.8076 21.0711 11.8076 20.4853 12.3934L12 20.8787L3.51472 12.3934C2.92893 11.8076 1.97919 11.8076 1.3934 12.3934C0.807611 12.9792 0.807611 13.9289 1.3934 14.5147L10.9393 24.0607ZM10.5 0L10.5 23H13.5L13.5 0L10.5 0Z" fill="white"></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="collaboration-feedback section-item">
+        <div class="text-center">
+          <h3>Collaboration Areas Feedback</h3>
+        </div>
+
+        <div class="container feedback-section__container">
+          <div class="rate-feedback-section">
+            <div class="row grid">
+              <div class="column-auto preview-column">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3 class="card-title">The Quad</h3>
+                    <p class="desc">
+                      An informal gathering area intended to be adjacent to pantries and technologically equipped to suit a division's needs. Designed to facilitate gatherings for group-thought, presentations, or to celebrate with colleagues.
+                    </p>
+                  </div>
+
+                  <div class="card-body w-img">
+                    <img src="img/png/card-img-1.png" alt="Image" class="img-cover" width="" height="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="column fb-options">
+                <div class="column-inner">
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">1.</span>How would you rate the usability of this small, collaborative space for the work you do?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <div class="option-item column-20 active">
+                        1
+                      </div>
+                      <div class="option-item column-20">
+                        2
+                      </div>
+                      <div class="option-item column-20">
+                        3
+                      </div>
+                      <div class="option-item column-20">
+                        4
+                      </div>
+                      <div class="option-item column-20">
+                        5
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">2.</span> What would make it better?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <textarea name="" id="textarea-1" cols="30" rows="10" placeholder="Type your response..."></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <!--ALert block-->
+          <div class="alert-holder__group">
+            <div class="float-img-layer"></div>
+
+            <div class="container feedback-section__container">
+              <div class="alert-holder _success _lg">
+                <h3 class="title">Brainstorm Areas</h3>
+                <p class="desc">
+                  All Brainstorm Areas are designed for informal gatherings, discussions, or presentations which do not require privacy or low sound levels. Ideal for team interactions and offering teleconferencing capabilities to interact with teleworking colleagues.
+                </p>
+              </div>
+            </div>
+            <!-- /.feedback-section__container -->
+            <!--<div class="">-->
+
+
+
+            <!--</div>-->
+          </div>
+
+        <div class="container feedback-section__container">
+          <div class="rate-feedback-section">
+            <div class="row grid">
+              <div class="column-auto preview-column">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3 class="card-title">Mini Brainstorm Area</h3>
+                    <p class="desc">
+                      A space for small, impromptu gatherings. This multi-use space can be used for short 1:1 or 1:many huddles, briefings, stand-ups, or coffee with a colleague.
+                    </p>
+                  </div>
+
+                  <div class="card-body w-img">
+                    <img src="img/png/card-img-1.png" alt="Image" class="img-cover" width="" height="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="column fb-options">
+                <div class="column-inner">
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">3.</span>How would you rate the usability of this area for the work you do?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <div class="option-item column-20 active">
+                        1
+                      </div>
+                      <div class="option-item column-20">
+                        2
+                      </div>
+                      <div class="option-item column-20">
+                        3
+                      </div>
+                      <div class="option-item column-20">
+                        4
+                      </div>
+                      <div class="option-item column-20">
+                        5
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">4.</span>What would make it better?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <textarea name="" id="" cols="30" rows="10" placeholder="Type your response..."></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rate-feedback-section">
+            <div class="row grid">
+              <div class="column-auto preview-column">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3 class="card-title">Meeting Booth</h3>
+                    <p class="desc">
+                      A space for small, impromptu gatherings. This multi-use space can be used for short 1:1 or 1:many huddles, briefings, stand-ups, or coffee with a colleague.
+                    </p>
+                  </div>
+
+                  <div class="card-body w-img">
+                    <img src="img/png/card-img-1.png" alt="Image" class="img-cover" width="" height="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="column fb-options">
+                <div class="column-inner">
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">5.</span>How would you rate the usability of this semi-private space for the work you do?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <div class="option-item column-20 active">
+                        1
+                      </div>
+                      <div class="option-item column-20">
+                        2
+                      </div>
+                      <div class="option-item column-20">
+                        3
+                      </div>
+                      <div class="option-item column-20">
+                        4
+                      </div>
+                      <div class="option-item column-20">
+                        5
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">6.</span>What would make it better?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <textarea name="" id="" cols="30" rows="10" placeholder="Type your response..."></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rate-feedback-section">
+            <div class="row grid">
+              <div class="column-auto preview-column">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3 class="card-title">Living Room</h3>
+                    <p class="desc">
+                      This space can easily pivot from a meeting with two people to twenty people. Roll up the pedestal seats found at each workstation and this space is transformed into an informal option for large group gatherings.
+                    </p>
+                  </div>
+
+                  <div class="card-body w-img">
+                    <img src="img/png/card-img-1.png" alt="Image" class="img-cover" width="" height="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="column fb-options">
+                <div class="column-inner">
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">7.</span>How would you rate the usability of this multi-use space for the work you do?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <div class="option-item column-20 active">
+                        1
+                      </div>
+                      <div class="option-item column-20">
+                        2
+                      </div>
+                      <div class="option-item column-20">
+                        3
+                      </div>
+                      <div class="option-item column-20">
+                        4
+                      </div>
+                      <div class="option-item column-20">
+                        5
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">8.</span>What would make it better?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <textarea name="" id="" cols="30" rows="10" placeholder="Type your response..."></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rate-feedback-section">
+            <div class="row grid">
+              <div class="column-auto preview-column">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3 class="card-title">Small Brainstorm</h3>
+                    <p class="desc">
+                      Description needed
+                    </p>
+                  </div>
+
+                  <div class="card-body w-img">
+                    <img src="img/png/card-img-1.png" alt="Image" class="img-cover" width="" height="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="column fb-options">
+                <div class="column-inner">
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">9.</span>How would you rate the usability of this space for the work you do?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <div class="option-item column-20 active">
+                        1
+                      </div>
+                      <div class="option-item column-20">
+                        2
+                      </div>
+                      <div class="option-item column-20">
+                        3
+                      </div>
+                      <div class="option-item column-20">
+                        4
+                      </div>
+                      <div class="option-item column-20">
+                        5
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">10.</span>What would make it better?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <textarea name="" id="" cols="30" rows="10" placeholder="Type your response..."></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rate-feedback-section">
+            <div class="row grid">
+              <div class="column-auto preview-column">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3 class="card-title">Large Brainstorm</h3>
+                    <p class="desc">
+                      Outfitted with an over-sized white board and monitor, with seating intended to support engagement and involvement. This area is perfect for stand-ups, scrum sessions, team huddles, or any work that requires out-of-the-box thinking.
+                    </p>
+                  </div>
+
+                  <div class="card-body w-img">
+                    <img src="img/png/card-img-1.png" alt="Image" class="img-cover" width="" height="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="column fb-options">
+                <div class="column-inner">
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">11.</span>How would you rate the usability of this multi-use space for the work you do?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <div class="option-item column-20 active">
+                        1
+                      </div>
+                      <div class="option-item column-20">
+                        2
+                      </div>
+                      <div class="option-item column-20">
+                        3
+                      </div>
+                      <div class="option-item column-20">
+                        4
+                      </div>
+                      <div class="option-item column-20">
+                        5
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">12.</span>What would make it better?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <textarea name="" id="" cols="30" rows="10" placeholder="Type your response..."></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--ALert block-->
+          <div class="alert-holder _success _lg">
+            <h3 class="title">Think Tanks</h3>
+            <p class="desc">
+              Think Tanks are designed to be enclosed spaces which limit acoustic
+              interruptions from adjacent work areas. The inclusion of multiple tools including monitors, white boards, and teleconferencing equipment supports the multiple forms of brainstorming and group dynamics expected to take place.
+            </p>
+          </div>
+
+          <div class="rate-feedback-section">
+            <div class="row grid">
+              <div class="column-auto preview-column">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3 class="card-title">Large Think Tank</h3>
+                    <p class="desc">
+                      Description needed
+                    </p>
+                  </div>
+
+                  <div class="card-body w-img">
+                    <img src="img/png/card-img-1.png" alt="Image" class="img-cover" width="" height="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="column fb-options">
+                <div class="column-inner">
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">13.</span>How would you rate the usability of this space for the work you do?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <div class="option-item column-20 active">
+                        1
+                      </div>
+                      <div class="option-item column-20">
+                        2
+                      </div>
+                      <div class="option-item column-20">
+                        3
+                      </div>
+                      <div class="option-item column-20">
+                        4
+                      </div>
+                      <div class="option-item column-20">
+                        5
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">14.</span>What would make it better?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <textarea name="" id="" cols="30" rows="10" placeholder="Type your response..."></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rate-feedback-section">
+            <div class="row grid">
+              <div class="column-auto preview-column">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3 class="card-title">Small Think Tank</h3>
+                    <p class="desc">
+                      Description needed
+                    </p>
+                  </div>
+
+                  <div class="card-body w-img">
+                    <img src="img/png/card-img-1.png" alt="Image" class="img-cover" width="" height="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="column fb-options">
+                <div class="column-inner">
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">13.</span>How would you rate the usability of this space for the work you do?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <div class="option-item column-20 active">
+                        1
+                      </div>
+                      <div class="option-item column-20">
+                        2
+                      </div>
+                      <div class="option-item column-20">
+                        3
+                      </div>
+                      <div class="option-item column-20">
+                        4
+                      </div>
+                      <div class="option-item column-20">
+                        5
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">14.</span>What would make it better?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <textarea name="" id="" cols="30" rows="10" placeholder="Type your response..."></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Next step btn-->
+      <div class="next-step__btn-row flex-x-center">
+        <button class="next-step__btn btn btn-success">
+          <span>Collaboration Areas</span>
+          <span class="icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.9393 24.0607C11.5251 24.6464 12.4749 24.6464 13.0607 24.0607L22.6066 14.5147C23.1924 13.9289 23.1924 12.9792 22.6066 12.3934C22.0208 11.8076 21.0711 11.8076 20.4853 12.3934L12 20.8787L3.51472 12.3934C2.92893 11.8076 1.97919 11.8076 1.3934 12.3934C0.807611 12.9792 0.807611 13.9289 1.3934 14.5147L10.9393 24.0607ZM10.5 0L10.5 23H13.5L13.5 0L10.5 0Z" fill="white"/>
+              </svg>
+            </span>
+        </button>
       </div>
     </div>
 
     <!--4-->
-    <div id="privatSec" class="anchor-block section-item full-height-section">Section 4</div>
+    <div id="privateSec" class="private-spaces__holder anchor-block has-next-step-btn">
+      <section class="heading-section section-item full-height-section anchor-block has-next-step-btn">
+        <div class="container">
+          <div class="row nowrap text-left-grid">
+            <div class="column text-column flex-y-center">
+              <div class="column-content__wrap">
+                <div class="pre-heading">Improving on your needs</div>
+                <h2 class="section-title">PRIVATE SPACES</h2>
+                <div class="desc">
+                  <p>Census Reimagined is dedicated to providing ample private space.</p>
+                  <p>The Phone Booth/Rooms serve as an enclosed space for periods of short term work or brief, private conversations. The spaces are intended to be quiet, private, and free from disturbance.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column image-column">
+              <div class="img-circle-txt__group">
+                <div class="circle-text">
+                  <div class="circle-text__content-wrap">
+                    <h3 class="title">Did you know?</h3>
+                    <p class="desc">
+                      Organizations offering a broader range of spaces—for collaboration, socializing, focus, rejuvenation and privacy—tend to have more engaged employees. (Steelcase 360 Report Engagement and the Global Workplace)
+                    </p>
+                  </div>
+                </div>
+
+                <div class="section-img _red-bg">
+                  <div class="bege-bg-layer"></div>
+                  <div class="w-img">
+                    <img src="img/jpg/3Q2A3121.jpg" alt="Image" width="455" height="354">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="next-step__btn-row flex-x-center">
+          <button class="next-step__btn btn btn-success">
+            <span>Let’s hear from you!</span>
+            <span class="icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.9393 24.0607C11.5251 24.6464 12.4749 24.6464 13.0607 24.0607L22.6066 14.5147C23.1924 13.9289 23.1924 12.9792 22.6066 12.3934C22.0208 11.8076 21.0711 11.8076 20.4853 12.3934L12 20.8787L3.51472 12.3934C2.92893 11.8076 1.97919 11.8076 1.3934 12.3934C0.807611 12.9792 0.807611 13.9289 1.3934 14.5147L10.9393 24.0607ZM10.5 0L10.5 23H13.5L13.5 0L10.5 0Z" fill="white"></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="private-feedback section-item">
+        <div class="text-center">
+          <h3>Private Spaces Feedback</h3>
+        </div>
+
+        <div class="container feedback-section__container">
+          <div class="rate-feedback-section primary-view">
+            <div class="row grid">
+              <div class="column-auto preview-column">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3 class="card-title">Single Phone Booth</h3>
+                    <p class="desc">
+                      Intended as a 'pop-in' space to take a private call and avoid disturbing others. This sound proof booth is equipped with automatic air-circulation every 60 seconds and plug-and-play capacity
+                    </p>
+                  </div>
+
+                  <div class="card-body w-img">
+                    <img src="img/png/card-img-1.png" alt="Image" class="img-cover" width="" height="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="column fb-options">
+                <div class="column-inner">
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">1.</span>How would you rate the usability of this private space for the work you do?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <div class="option-item column-20 active">
+                        1
+                      </div>
+                      <div class="option-item column-20">
+                        2
+                      </div>
+                      <div class="option-item column-20">
+                        3
+                      </div>
+                      <div class="option-item column-20">
+                        4
+                      </div>
+                      <div class="option-item column-20">
+                        5
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">2.</span> What would make it better?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <textarea name="" id="textarea-10" cols="30" rows="10" placeholder="Type your response..."></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rate-feedback-section primary-view">
+            <div class="row grid">
+              <div class="column-auto preview-column">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3 class="card-title">Double Phone Booth</h3>
+                    <p class="desc">
+                      Roomier space to facilitate short-duration meetings requiring privacy. Accommodates 1-4 people.
+                    </p>
+                  </div>
+
+                  <div class="card-body w-img">
+                    <img src="img/png/card-img-1.png" alt="Image" class="img-cover" width="" height="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="column fb-options">
+                <div class="column-inner">
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">3.</span>How would you rate the usability of this private space for the work you do?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <div class="option-item column-20 active">
+                        1
+                      </div>
+                      <div class="option-item column-20">
+                        2
+                      </div>
+                      <div class="option-item column-20">
+                        3
+                      </div>
+                      <div class="option-item column-20">
+                        4
+                      </div>
+                      <div class="option-item column-20">
+                        5
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">4.</span> What would make it better?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <textarea name="" id="textarea-11" cols="30" rows="10" placeholder="Type your response..."></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rate-feedback-section primary-view">
+            <div class="row grid">
+              <div class="column-auto preview-column">
+                <div class="card">
+                  <div class="card-header text-center">
+                    <h3 class="card-title">ADA Compliant Phone Room</h3>
+                    <p class="desc">
+                      This private and enclosed room has a sliding glass door. Intended for short-durations requiring quiet.
+                    </p>
+                  </div>
+
+                  <div class="card-body w-img">
+                    <img src="img/png/card-img-1.png" alt="Image" class="img-cover" width="" height="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="column fb-options">
+                <div class="column-inner">
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">5.</span>How would you rate the usability of this private space for the work you do?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <div class="option-item column-20 active">
+                        1
+                      </div>
+                      <div class="option-item column-20">
+                        2
+                      </div>
+                      <div class="option-item column-20">
+                        3
+                      </div>
+                      <div class="option-item column-20">
+                        4
+                      </div>
+                      <div class="option-item column-20">
+                        5
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="fb-options__item">
+                    <div class="fb-options__title">
+                      <div class="d-flex">
+                        <span class="count">6.</span> What would make it better?
+                      </div>
+                    </div>
+
+                    <div class="options-holder">
+                      <textarea name="" id="textarea-11" cols="30" rows="10" placeholder="Type your response..."></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="next-step__btn-row flex-x-center">
+        <button class="next-step__btn btn btn-success">
+          <span>Let’s hear from you!</span>
+          <span class="icon">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.9393 24.0607C11.5251 24.6464 12.4749 24.6464 13.0607 24.0607L22.6066 14.5147C23.1924 13.9289 23.1924 12.9792 22.6066 12.3934C22.0208 11.8076 21.0711 11.8076 20.4853 12.3934L12 20.8787L3.51472 12.3934C2.92893 11.8076 1.97919 11.8076 1.3934 12.3934C0.807611 12.9792 0.807611 13.9289 1.3934 14.5147L10.9393 24.0607ZM10.5 0L10.5 23H13.5L13.5 0L10.5 0Z" fill="white"></path>
+              </svg>
+            </span>
+        </button>
+      </div>
+    </div>
 
     <!--5-->
     <div id="furnitureSec" class="anchor-blocks">
@@ -571,7 +1419,7 @@
             <div class="column-content__wrap">
               <h2 class="section-title">THANK YOU!</h2>
               <div class="pre-heading">What you can look forward to</div>
-              <p>Your valuable feedback helps us design our best work environment for the future. We appreciate you and
+              <p class="desc">Your valuable feedback helps us design our best work environment for the future. We appreciate you and
                 your support!</p>
             </div>
           </div>
